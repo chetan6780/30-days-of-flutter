@@ -15,4 +15,12 @@
     -   [x] Learn the structure of a flutter app
     -   [x] Learn how to add images and fonts in app
     -   [x] Learn how to Center widget
-    -   ![introAppScreenShot](images/introApp.png)
+    -   <img src="images/introApp.png" alt="mobile grid" style="width: 300px;">
+
+### Day-3
+
+-   Started Learning Dart for flutter.
+    -   [x] Datatypes
+    -   [x] Variables
+    -   [x] List and Map
+    -   [x] Functions
