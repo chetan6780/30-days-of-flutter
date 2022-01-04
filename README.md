@@ -15,7 +15,7 @@
     -   [x] Learn the structure of a flutter app
     -   [x] Learn how to add images and fonts in app
     -   [x] Learn how to Center widget
-    -   <img src="images/introApp.png" alt="mobile grid" style="width: 300px;">
+    -   <img src="images/introApp.png" alt="mobile screenshot" style="width: 300px;">
 
 ### Day-3
 
@@ -24,3 +24,12 @@
     -   [x] Variables
     -   [x] List and Map
     -   [x] Functions
+
+### Day-4
+
+-   Finished required Dart for flutter
+    -   [x] Conditional Statements & Loops
+    -   [x] constructors
+    -   [x] JSON handling - [quicktype](https://quicktype.io/)
+    -   [x] Async and Await
+    -   [x] Future(like promise in js)
