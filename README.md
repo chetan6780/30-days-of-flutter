@@ -34,7 +34,26 @@
     -   [x] Async and Await
     -   [x] Future(like promise in js)
 
-### Day-5 
+### Day-5
 
-- Started Dice rolling app
+-   Started Dice rolling app
+    -   [x] Learn about animations
+    -   [x] Learn about gestures
+    -   [x] Learn about controllers
+    -   [x] Learn about state management
 
+### Day - 6
+
+-   Finished Dice Rolling app
+    -   [x] Create app icon from [appicon](https://appicon.co/).
+    -   [x] `rolling_Dice/android/app/src/main/res` - change app icon
+    -   [x] Learn implementing splash screen.
+        1. ```dart
+            onDoneLoading(){
+               Navigator.of(context)
+               .pushReplacement(MaterialPageRoute(builder: (context)=>HomeScreen()))
+            }
+           ```
+            With Stateful SplashScreen widget.
+        2. pub.dev - [Animated splash screen](https://pub.dev/packages/animated_splash_screen)
+        3. The flutter way - android - `rolling_Dice/android/app/src/main/res/Drawable` - change `launch_background.xml`

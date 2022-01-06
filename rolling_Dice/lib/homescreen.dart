@@ -25,31 +25,28 @@ class _HomeScreenState extends State<HomeScreen>
     _controller.dispose();
   }
 
-  animate(){
-     _controller =
+  animate() {
+    _controller =
         AnimationController(duration: Duration(seconds: 1), vsync: this);
-        animation= CurvedAnimation(parent: _controller,curve: Curves.bounceOut);
+    animation = CurvedAnimation(parent: _controller, curve: Curves.bounceOut);
     animation.addListener(() {
-      setState(() {
-        
-      });
+      setState(() {});
       // print(_controller.value);
     });
-   animation.addStatusListener((status) {
+    animation.addStatusListener((status) {
       if (status == AnimationStatus.completed) {
         setState(() {
-      leftDiceNumber = Random().nextInt(6) + 1;
-      rightDiceNumber = Random().nextInt(6) + 1;
-    });
+          leftDiceNumber = Random().nextInt(6) + 1;
+          rightDiceNumber = Random().nextInt(6) + 1;
+        });
         // print('Completed');
-       _controller.reverse();
+        _controller.reverse();
       }
     });
   }
 
   void roll() {
     _controller.forward();
-    
   }
 
   @override
@@ -69,7 +66,8 @@ class _HomeScreenState extends State<HomeScreen>
                     onDoubleTap: roll,
                     child: Padding(
                       padding: EdgeInsets.all(15),
-                      child: Image(height:200- (animation.value)*200,
+                      child: Image(
+                        height: 200 - (animation.value) * 200,
                         image: AssetImage(
                             'assets/images/dice-png-$leftDiceNumber.png'),
                       ),
@@ -81,7 +79,8 @@ class _HomeScreenState extends State<HomeScreen>
                     onDoubleTap: roll,
                     child: Padding(
                       padding: EdgeInsets.all(15),
-                      child: Image(height:200- (animation.value)*200,
+                      child: Image(
+                        height: 200 - (animation.value) * 200,
                         image: AssetImage(
                             'assets/images/dice-png-$rightDiceNumber.png'),
                       ),
