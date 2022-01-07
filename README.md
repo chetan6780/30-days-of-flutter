@@ -57,3 +57,7 @@
             With Stateful SplashScreen widget.
         2. pub.dev - [Animated splash screen](https://pub.dev/packages/animated_splash_screen)
         3. The flutter way - android - `rolling_Dice/android/app/src/main/res/Drawable` - change `launch_background.xml`
+    -   <div style="display: flex; justify-content: space-between; align-items: center;">
+            <img src="images/dice1.png" alt="Splash Screen" style="width: 300px;">
+            <img src="images/dice2.png" alt="Dice homepage" style="width: 300px;">
+        </div>
