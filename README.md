@@ -1,5 +1,7 @@
 # 100-days-of-flutter
 
+### Resource (Day 1-8) : [Code help flutter series Hindi](https://www.youtube.com/playlist?list=PLDzeHZWIZsTo3Cs115GXkot28i406511Y)
+
 ### Day-1
 
 -   Completed All [Installations required](https://docs.flutter.dev/get-started/install/windows) for Flutter.
@@ -15,7 +17,7 @@
     -   [x] Learn the structure of a flutter app
     -   [x] Learn how to add images and fonts in app
     -   [x] Learn how to Center widget
-    -   <img src="images/introApp.png" alt="mobile screenshot" style="width: 300px;">
+    -   [x] <img src="images/introApp.png" alt="mobile screenshot" style="width: 300px;">
 
 ### Day-3
 
@@ -57,7 +59,17 @@
             With Stateful SplashScreen widget.
         2. pub.dev - [Animated splash screen](https://pub.dev/packages/animated_splash_screen)
         3. The flutter way - android - `rolling_Dice/android/app/src/main/res/Drawable` - change `launch_background.xml`
-    -   <div style="display: flex; justify-content: space-between; align-items: center;">
-            <img src="images/dice1.png" alt="Splash Screen" style="width: 300px;">
-            <img src="images/dice2.png" alt="Dice homepage" style="width: 300px;">
-        </div>
+    -   [x] <img src="images/dice2.png" alt="Dice homepage" style="width: 300px;">
+
+### Day - 7
+
+-   Flutter UI break-down
+
+### Day - 8
+
+-   Completed piano game application
+    -   [x] Lear about plugins
+    -   [x] Learn about audio in flutter
+-   FlutterFire
+    -   [x] Lear about flutter + firebase = flutterFire
+    -   [x] Phone Authentication using firebase
