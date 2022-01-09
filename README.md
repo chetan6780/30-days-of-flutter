@@ -73,3 +73,10 @@
 -   FlutterFire
     -   [x] Lear about flutter + firebase = flutterFire
     -   [x] Phone Authentication using firebase
+
+### Resource (Day 9-19) : [Codepur hindi flutter series](https://www.youtube.com/playlist?list=PLrjrqTcKCnhTXI2GyPkaQF47inLp6LoIC)
+
+### Day - 9
+
+-   Started flutter catalog app
+    -   [x] Learn about flutter Routes & Theme
