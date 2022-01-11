@@ -90,3 +90,11 @@
     -   [x] Learned to use Future
     -   [x] Learned to use animations
     -   [x] Learned about InkWell, BoxDecoration, BorderRadius
+
+### Day - 11
+
+-   finshed work on login page, started working on drawer
+    -   [x] Learned about validators
+    -   [x] Learned about devtools, flutter inspecter
+    -   [x] Customized drawer
+    -   [x] Created models for Item
