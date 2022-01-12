@@ -98,3 +98,9 @@
     -   [x] Learned about devtools, flutter inspecter
     -   [x] Customized drawer
     -   [x] Created models for Item
+
+### Day - 12
+
+-   [x] Learned about context & constraints
+-   [x] Applied card and list view
+-   [x] worked on json with the help of Dart:convert
