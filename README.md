@@ -104,3 +104,7 @@
 -   [x] Learned about context & constraints
 -   [x] Applied card and list view
 -   [x] worked on json with the help of Dart:convert
+
+### Day - 13
+
+-   [x] Improved UI with the help of VelocityX package
