@@ -1,7 +1,14 @@
 import 'dart:convert';
 
 class CatalogModel {
-  static List<Item> items = [];
+  static List<Item> items;
+
+  // Get Item by ID
+  static Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  // Get Item by position
+  static Item getByPosition(int pos) => items[pos];
 }
 
 class Item {
@@ -13,21 +20,21 @@ class Item {
   final String image;
 
   Item({
-    required this.id,
-    required this.name,
-    required this.desc,
-    required this.price,
-    required this.color,
-    required this.image,
+    this.id,
+    this.name,
+    this.desc,
+    this.price,
+    this.color,
+    this.image,
   });
 
   Item copyWith({
-    int? id,
-    String? name,
-    String? desc,
-    num? price,
-    String? color,
-    String? image,
+    int id,
+    String name,
+    String desc,
+    num price,
+    String color,
+    String image,
   }) {
     return Item(
       id: id ?? this.id,
@@ -51,13 +58,15 @@ class Item {
   }
 
   factory Item.fromMap(Map<String, dynamic> map) {
+    if (map == null) return null;
+
     return Item(
-      id: map['id']?.toInt() ?? 0,
-      name: map['name'] ?? '',
-      desc: map['desc'] ?? '',
-      price: map['price'] ?? 0,
-      color: map['color'] ?? '',
-      image: map['image'] ?? '',
+      id: map['id'],
+      name: map['name'],
+      desc: map['desc'],
+      price: map['price'],
+      color: map['color'],
+      image: map['image'],
     );
   }
 
@@ -71,16 +80,16 @@ class Item {
   }
 
   @override
-  bool operator ==(Object other) {
-    if (identical(this, other)) return true;
+  bool operator ==(Object o) {
+    if (identical(this, o)) return true;
 
-    return other is Item &&
-        other.id == id &&
-        other.name == name &&
-        other.desc == desc &&
-        other.price == price &&
-        other.color == color &&
-        other.image == image;
+    return o is Item &&
+        o.id == id &&
+        o.name == name &&
+        o.desc == desc &&
+        o.price == price &&
+        o.color == color &&
+        o.image == image;
   }
 
   @override

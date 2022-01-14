@@ -2,23 +2,22 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
-  const MyDrawer({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    const imageUrl = "https://avatars.githubusercontent.com/u/62825092?v=4";
+    final imageUrl =
+        "https://avatars.githubusercontent.com/u/12619420?s=460&u=26db98cbde1dd34c7c67b85c240505a436b2c36d&v=4";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
         child: ListView(
           padding: EdgeInsets.zero,
-          children: const [
+          children: [
             DrawerHeader(
               padding: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
-                accountName: Text("Chetan Patil"),
-                accountEmail: Text("crp20802@gmail.com"),
+                accountName: Text("Pawan Kumar"),
+                accountEmail: Text("mtechviral@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imageUrl),
                 ),

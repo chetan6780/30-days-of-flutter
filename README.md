@@ -108,3 +108,8 @@
 ### Day - 13
 
 -   [x] Improved UI with the help of VelocityX package
+
+### Day - 14
+
+-   [x] Created detail page of Item.
+-   [x] Implimented dark mode.
