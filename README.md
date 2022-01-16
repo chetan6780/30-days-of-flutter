@@ -74,7 +74,7 @@
     -   [x] Lear about flutter + firebase = flutterFire
     -   [x] Phone Authentication using firebase
 
-### Resource (Day 9-19) : [Codepur hindi flutter series](https://www.youtube.com/playlist?list=PLrjrqTcKCnhTXI2GyPkaQF47inLp6LoIC)
+### Resource (Day 9-15) : [Codepur hindi flutter series](https://www.youtube.com/playlist?list=PLrjrqTcKCnhTXI2GyPkaQF47inLp6LoIC)
 
 ### Day - 9
 
@@ -113,3 +113,7 @@
 
 -   [x] Created detail page of Item.
 -   [x] Implimented dark mode.
+
+### Day - 15
+
+-   [x] Completed flutter catalog.
