@@ -1,4 +1,4 @@
-# 100-days-of-flutter
+# 30-days-of-flutter
 
 ---
 
@@ -126,8 +126,7 @@
 
 ## 15 Days Flutter UI Challenge (Day:16-30)
 
--   [ ] [WhatsApp UI Clone](https://github.com/chetan6780/WhatsApp-UI-Clone)
--   [ ] [Instagram UI Clone](#)
+-   [x] [WhatsApp UI Clone](https://github.com/chetan6780/WhatsApp-UI-Clone)
 
 ### Day - 16
 
@@ -136,7 +135,7 @@
 
 ---
 
-### Day - 31
+### Day - 30
 
--   [ ] Revise all the Dart Concepts.
--   [ ] Review all code Written so far.
+-   [x] Revise all the Dart Concepts.
+-   [x] Review all code Written so far.
